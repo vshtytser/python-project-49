@@ -19,7 +19,7 @@ package-install:
 force-reinstall:
 	python3 -m pip install --force-reinstall --user dist/*.whl
 
-re-do-publish-install: build publish force-reinstall
+re-build-publish-install: build publish force-reinstall
 
 lint:
 	poetry run flake8 brain_games
