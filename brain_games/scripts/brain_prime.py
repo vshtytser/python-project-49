@@ -14,7 +14,7 @@ def main():
         general_games.ask_question(question_content)
 
         solution = prime_game.check_if_number_prime(question_content)
-        print(f"***test_solution: {solution}")
+        # print(f"***test_solution: {solution}")
 
         user_answer = general_games.user_answer_input()
 
