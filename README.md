@@ -26,6 +26,21 @@ This game quizzes the player on whether a presented number is prime or not.
 
 [![asciicast](https://asciinema.org/a/nDXM3NLEin9hC9VQUqFJHbLqa.svg)](https://asciinema.org/a/nDXM3NLEin9hC9VQUqFJHbLqa)
 
+
+### Technical requrements
+**Operating System:** The project should be compatible with Windows, macOS, and Linux operating systems.
+
+**Python:** Make sure you have Python version 3.10 or newer installed on your system.
+
+**Poetry:** The project uses Poetry as a dependency management and packaging tool. Make sure you have Poetry installed on your system. You can install Poetry by following the instructions in the Poetry documentation (https://python-poetry.org/docs/#installation).
+
+**Dependencies:** Once you have Poetry installed, navigate to the project directory in your terminal or command prompt and run the following command to install the project dependencies:
+
+`poetry install`
+
+This command will install all the necessary dependencies specified in the pyproject.toml file, including the `prompt` library and development dependencies like `flake8` for code linting.
+
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/vshtytser/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/vshtytser/python-project-49/actions)
 
