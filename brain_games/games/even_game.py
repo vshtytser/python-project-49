@@ -1,7 +1,7 @@
 positive_answer = "yes"
 negative_answer = "no"
 
-task = f'Answer "{positive_answer}" if the number is even, otherwise answer "{negative_answer}".'
+task = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def check_if_even(integer):

@@ -1,7 +1,7 @@
 positive_answer = "yes"
 negative_answer = "no"
 
-task = f'Answer "{positive_answer}" if given number is prime. Otherwise answer "{negative_answer}".'
+task = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def check_if_number_prime(number):

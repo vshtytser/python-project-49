@@ -47,7 +47,8 @@ def congratulate_user_game(user_name):
 
 
 def show_correct_answer(user_answer, solution):
-    print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{solution}'.")
+    print(
+        f"'{user_answer}' is wrong answer ;(. Correct answer was '{solution}'.")
 
 
 def invite_back(user_name):
